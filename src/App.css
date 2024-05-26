@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  justify-content: center
+}
+header{
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  height: 55px;
+  font-size: 15px;
+  font-weight: bolder;
+  color: white;
+  background-color: rgb(255, 28, 28);
+}
+header img{
+  height: auto;
+  width: auto;
+}
+.journal-sheet{
+  border-radius: 5px;
+  background-color: rgba(240, 248, 255, 0.434);
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  margin: 35px auto; 
+  gap: 20px;
+  padding: 10px;
+}
+img{
+  height: 168px;
+  width: 125px;
+  object-fit: cover;
+  border-radius: 5px;
+ }
+.googleMapsLogo{
+  width:16px; 
+  height:20px;
+
+}
+.mapLink {
+  font-size:10px;
+  color: #8b8993;
+  letter-spacing: normal;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.location{
+  margin: right 12px ;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.title{
+  color: #191822;
+  font-size: 25px;
+  margin-bottom: 7px;
+}
+.date{
+  font-size: 11px;
+  color: #312e3b;
+  letter-spacing: normal;
+  font-weight: bold;
+  margin-bottom: 10px;
+
+}
+.discription{
+  font-size: 12px;
+  max-width: 300px;
+}
+footer{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  border-radius: 5px;
+  font-size: small;
+  color: white;
+  background-color: rgb(255, 0, 0);
+}
